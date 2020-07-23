@@ -1,8 +1,12 @@
-comment by microshaoft
+Usage comments by Microshaoft
 
 ```
 docker run -p 3128:3128 chrisdaish/squid
+```
+```
 docker exec -it 8149cd49d5f7 tail -f /var/log/squid/access.log
+```
+```
 curl -x 127.0.0.1:3128 https://www.cnblogs.com
 ```
 
